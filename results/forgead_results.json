@@ -1,0 +1,17 @@
+{
+  "method": "ForgeAD: CutPaste-style self-supervised forge + Gaussian density scoring",
+  "reference": "C. Li et al., CutPaste, CVPR 2021 (independent re-implementation)",
+  "category": "toothbrush",
+  "n_test": 42,
+  "n_anomalous": 30,
+  "img_size": 224,
+  "image_auroc_gde": 0.8416666666666667,
+  "image_auroc_head_ablation": 0.8583333333333334,
+  "pixel_auroc": 0.9141330055207979,
+  "baseline": {
+    "image_auroc": 0.9166666666666667,
+    "pixel_auroc": 0.9267407748487964,
+    "method": "PatchCore (VisionAI Project 2, measured)"
+  },
+  "note": "Pixel AUROC is computed over all test pixels, same as the baseline."
+}
